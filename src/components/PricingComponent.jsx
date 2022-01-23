@@ -3,7 +3,7 @@ const PricingComponent = () => {
     <section className="pricing section">
       <div className="container-sm">
         <div className="pricing-inner section-inner">
-          <div className="pricing-header text-center">
+          <div className="pricing-header text-center" data-inviewport="scaleUp">
             <h2 className="section-title mt-0">Unlimited for all</h2>
             <p className="section-paragraph mb-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -11,7 +11,7 @@ const PricingComponent = () => {
               quis nostrud.
             </p>
           </div>
-          <div className="pricing-tables-wrap">
+          <div className="pricing-tables-wrap" data-inviewport="fadeInUp">
             <div className="pricing-table">
               <div className="pricing-table-inner is-revealing">
                 <div className="pricing-table-main">

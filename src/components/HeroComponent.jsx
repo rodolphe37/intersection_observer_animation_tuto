@@ -2,7 +2,7 @@ const HeroComponent = () => {
   return (
     <section className="hero">
       <div className="container">
-        <div className="hero-inner">
+        <div className="hero-inner" data-inviewport="scaleUp">
           <div className="hero-copy">
             <h1 className="hero-title mt-0">Landing template for startups</h1>
             <p className="hero-paragraph">

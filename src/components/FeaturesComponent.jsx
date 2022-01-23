@@ -11,7 +11,7 @@ const FeaturesComponent = () => {
       <div className="container">
         <div className="features-inner section-inner has-bottom-divider">
           <div className="features-wrap">
-            <div className="feature text-center is-revealing">
+            <div className="feature text-center" data-inviewport="fadeInUp">
               <div className="feature-inner">
                 <div className="feature-icon">
                   <img src={img1} alt="Feature 01" />
@@ -25,7 +25,10 @@ const FeaturesComponent = () => {
                 </p>
               </div>
             </div>
-            <div className="feature text-center is-revealing">
+            <div
+              className="feature text-center"
+              data-inviewport="fadeInUpMediumDelay"
+            >
               <div className="feature-inner">
                 <div className="feature-icon">
                   <img src={img2} alt="Feature 02" />
@@ -39,7 +42,10 @@ const FeaturesComponent = () => {
                 </p>
               </div>
             </div>
-            <div className="feature text-center is-revealing">
+            <div
+              className="feature text-center"
+              data-inviewport="fadeInUpLargeDelay"
+            >
               <div className="feature-inner">
                 <div className="feature-icon">
                   <img src={img3} alt="Feature 03" />
@@ -53,7 +59,7 @@ const FeaturesComponent = () => {
                 </p>
               </div>
             </div>
-            <div className="feature text-center is-revealing">
+            <div className="feature text-center" data-inviewport="fadeInUp">
               <div className="feature-inner">
                 <div className="feature-icon">
                   <img src={img4} alt="Feature 04" />
@@ -67,7 +73,10 @@ const FeaturesComponent = () => {
                 </p>
               </div>
             </div>
-            <div className="feature text-center is-revealing">
+            <div
+              className="feature text-center"
+              data-inviewport="fadeInUpMediumDelay"
+            >
               <div className="feature-inner">
                 <div className="feature-icon">
                   <img src={img5} alt="Feature 05" />
@@ -81,7 +90,10 @@ const FeaturesComponent = () => {
                 </p>
               </div>
             </div>
-            <div className="feature text-center is-revealing">
+            <div
+              className="feature text-center"
+              data-inviewport="fadeInUpLargeDelay"
+            >
               <div className="feature-inner">
                 <div className="feature-icon">
                   <img src={img6} alt="Feature 06" />

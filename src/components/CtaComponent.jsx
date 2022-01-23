@@ -1,6 +1,6 @@
 const CtaComponent = () => {
   return (
-    <section className="cta section">
+    <section className="cta section" data-inviewport="fadeInUp">
       <div className="container">
         <div className="cta-inner section-inner">
           <h3 className="section-title mt-0">Still not convinced on buying?</h3>

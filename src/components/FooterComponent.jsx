@@ -2,7 +2,7 @@ import logo from "../images/logo.svg";
 
 const FooterComponent = () => {
   return (
-    <footer className="site-footer">
+    <footer className="site-footer" data-inviewport="scaleUp">
       <div className="container">
         <div className="site-footer-inner">
           <div className="brand footer-brand">

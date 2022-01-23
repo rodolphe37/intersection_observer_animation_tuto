@@ -1,0 +1,67 @@
+/*ONLOAD PAGE ANIMATIONS LOGIC */
+[data-inviewport="fadeInUp"].is-inViewport {
+  animation: 1s fadeInUp 0.2s ease-in-out both;
+  opacity: 1;
+  transition: 1s;
+}
+[data-inviewport="fadeInUp"]:not(.is-inViewport) {
+  transition: 1s;
+  opacity: 0;
+}
+[data-inviewport="scaleUp"].is-inViewport {
+  animation: scaleUp 1s ease-in-out both;
+  opacity: 1;
+  transition: 1s;
+}
+[data-inviewport="scaleUp"]:not(.is-inViewport) {
+  transition: 1s;
+  opacity: 0;
+}
+
+[data-inviewport="fadeInUpMediumDelay"]:not(.is-inViewport) {
+  opacity: 0;
+  transition: 1s;
+}
+[data-inviewport="fadeInUpMediumDelay"].is-inViewport {
+  animation: 1s fadeInUp 0.5s ease-in-out both;
+  opacity: 1;
+  transition: 1s;
+}
+[data-inviewport="fadeInUpLargeDelay"]:not(.is-inViewport) {
+  opacity: 0;
+  transition: 1s;
+}
+[data-inviewport="fadeInUpLargeDelay"].is-inViewport {
+  animation: 1s fadeInUp 0.8s ease-in-out both;
+  opacity: 1;
+  transition: 1s;
+}
+[data-inviewport="fadeInUpVeryLargeDelay"]:not(.is-inViewport) {
+  opacity: 0;
+  transition: 1s;
+}
+[data-inviewport="fadeInUpVeryLargeDelay"].is-inViewport {
+  animation: 1s fadeInUp 1.1s ease-in-out both;
+  opacity: 1;
+  transition: 1s;
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+  100% {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+@keyframes scaleUp {
+  0% {
+    transform: translateX(0) scale(0);
+  }
+  100% {
+    transform: translateX(0) scale(1);
+  }
+}

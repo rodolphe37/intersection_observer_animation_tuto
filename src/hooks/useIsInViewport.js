@@ -1,14 +1,21 @@
 // Custom hook for detecting if is in viewport
 const useIsInViewport = () => {
-  const inViewport = (entries, observer) => {
+  const inViewport = (entries) => {
+    //Animation every time you scroll (without condition)
     entries.forEach((entry) => {
-      if (entry.isIntersecting) {
-        setTimeout(() => {
-          entry.target.classList.toggle("is-inViewport", entry.isIntersecting);
-        }, 100);
-      }
-      return;
+      entry.target.classList.toggle("is-inViewport", entry.isIntersecting);
     });
+    // EXAMPLE WITH ANIMATION ONLY AT FIRST LOAD
+    // Animation only one time (at first load)
+    // entries.forEach((entry) => {
+    // This condition is added - if entry is in viewport for the first time only
+    //   if (entry.isIntersecting) {
+    //     setTimeout(() => {
+    //       entry.target.classList.toggle("is-inViewport", entry.isIntersecting);
+    //     }, 100);
+    //   }
+    //   return;
+    // });
   };
   function buildThresholdList() {
     let thresholds = [];
@@ -31,13 +38,7 @@ const useIsInViewport = () => {
     threshold: buildThresholdList(),
   }; //See: https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API#Intersection_observer_options
 
-  // Attach observer to every [data-inviewport] element:
-  const ELs_inViewport = document.querySelectorAll("[data-inviewport]");
-  ELs_inViewport.forEach((EL) => {
-    Obs.observe(EL, obsOptions);
-  });
-
-  return inViewport;
+  return { inViewport, Obs, obsOptions };
 };
 
 export default useIsInViewport;
