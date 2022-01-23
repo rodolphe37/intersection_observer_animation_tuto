@@ -3,9 +3,11 @@ const PricingComponent = () => {
     <section className="pricing section">
       <div className="container-sm">
         <div className="pricing-inner section-inner">
-          <div className="pricing-header text-center" data-inviewport="scaleUp">
-            <h2 className="section-title mt-0">Unlimited for all</h2>
-            <p className="section-paragraph mb-0">
+          <div className="pricing-header text-center">
+            <h2 className="section-title mt-0" data-inviewport="scaleUp">
+              Unlimited for all
+            </h2>
+            <p className="section-paragraph mb-0" data-inviewport="scaleUp">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut ad
               quis nostrud.
