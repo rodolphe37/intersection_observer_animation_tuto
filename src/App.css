@@ -8,8 +8,7 @@
 
 html {
   line-height: 1.15;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 body {
   margin: 0;
@@ -119,7 +118,7 @@ button,
 html [type="button"],
 [type="reset"],
 [type="submit"] {
-  -webkit-appearance: button;
+  appearance: button;
 }
 button::-moz-focus-inner,
 [type="button"]::-moz-focus-inner,
@@ -157,20 +156,20 @@ textarea {
   box-sizing: border-box;
   padding: 0;
 }
-[type="number"]::-webkit-inner-spin-button,
-[type="number"]::-webkit-outer-spin-button {
+[type="number"]::inner-spin-button,
+[type="number"]::outer-spin-button {
   height: auto;
 }
 [type="search"] {
-  -webkit-appearance: textfield;
+  appearance: textfield;
   outline-offset: -2px;
 }
-[type="search"]::-webkit-search-cancel-button,
-[type="search"]::-webkit-search-decoration {
-  -webkit-appearance: none;
+[type="search"]::search-cancel-button,
+[type="search"]::search-decoration {
+  appearance: none;
 }
-::-webkit-file-upload-button {
-  -webkit-appearance: button;
+::file-upload-button {
+  appearance: button;
   font: inherit;
 }
 details,
@@ -923,8 +922,8 @@ label {
   max-width: 100%;
   width: 100%;
 }
-.input::-webkit-input-placeholder,
-.textarea::-webkit-input-placeholder {
+.input::input-placeholder,
+.textarea::input-placeholder {
   color: #3b404c;
 }
 .input:-ms-input-placeholder,
@@ -966,7 +965,7 @@ label {
 }
 .input {
   -moz-appearance: none;
-  -webkit-appearance: none;
+  appearance: none;
   font-size: 16px;
   letter-spacing: -0.1px;
   line-height: 20px;
@@ -1102,9 +1101,9 @@ label {
       rgba(36, 40, 48, 0.5) 0%,
       rgba(36, 40, 48, 0) 100%
     );
-    -webkit-transform-origin: 0;
     transform-origin: 0;
-    -webkit-transform: skewY(-12deg);
+    transform-origin: 0;
+    transform: skewY(-12deg);
     transform: skewY(-12deg);
   }
 }
@@ -1182,7 +1181,7 @@ label {
   bottom: 0;
   left: 0;
   right: 0;
-  -webkit-transform-origin: 100% 100%;
+  transform-origin: 100% 100%;
   transform-origin: 100% 100%;
 }
 .hero-figure-box-01 {
@@ -1191,12 +1190,12 @@ label {
   width: 28.03%;
   height: 37.37%;
   background: linear-gradient(to left top, #00bffb, rgba(0, 191, 251, 0));
-  -webkit-transform: rotateZ(45deg);
+  transform: rotateZ(45deg);
   transform: rotateZ(45deg);
 }
 .hero-figure-box-01::before {
   background: linear-gradient(to left, #15181d 0%, rgba(21, 24, 29, 0) 60%);
-  -webkit-transform: rotateZ(45deg) scale(1.5);
+  transform: rotateZ(45deg) scale(1.5);
   transform: rotateZ(45deg) scale(1.5);
 }
 .hero-figure-box-02 {
@@ -1205,12 +1204,12 @@ label {
   width: 37.87%;
   height: 50.5%;
   background: linear-gradient(to left top, #0270d7, rgba(2, 112, 215, 0));
-  -webkit-transform: rotateZ(-45deg);
+  transform: rotateZ(-45deg);
   transform: rotateZ(-45deg);
 }
 .hero-figure-box-02::before {
   background: linear-gradient(to top, #15181d 0%, rgba(21, 24, 29, 0) 60%);
-  -webkit-transform: rotateZ(-45deg) scale(1.5);
+  transform: rotateZ(-45deg) scale(1.5);
   transform: rotateZ(-45deg) scale(1.5);
 }
 .hero-figure-box-03 {
@@ -1222,7 +1221,7 @@ label {
 }
 .hero-figure-box-03::before {
   background: linear-gradient(to left, #15181d 0%, rgba(21, 24, 29, 0) 60%);
-  -webkit-transform: rotateZ(45deg) scale(1.5);
+  transform: rotateZ(45deg) scale(1.5);
   transform: rotateZ(45deg) scale(1.5);
 }
 .hero-figure-box-04 {
@@ -1231,7 +1230,7 @@ label {
   width: 45.45%;
   height: 60.6%;
   background: linear-gradient(to left top, #0270d7, rgba(2, 112, 215, 0));
-  -webkit-transform: rotateZ(-135deg);
+  transform: rotateZ(-135deg);
   transform: rotateZ(-135deg);
 }
 .hero-figure-box-04::before {
@@ -1240,7 +1239,7 @@ label {
     rgba(255, 255, 255, 0.24) 0%,
     rgba(255, 255, 255, 0) 60%
   );
-  -webkit-transform: rotateZ(-45deg) scale(1.5);
+  transform: rotateZ(-45deg) scale(1.5);
   transform: rotateZ(-45deg) scale(1.5);
 }
 .hero-figure-box-05,
@@ -1254,8 +1253,7 @@ label {
   top: 13.3%;
   width: 64%;
   height: 73.7%;
-  -webkit-transform: perspective(500px) rotateY(-15deg) rotateX(8deg)
-    rotateZ(-1deg);
+  transform: perspective(500px) rotateY(-15deg) rotateX(8deg) rotateZ(-1deg);
   transform: perspective(500px) rotateY(-15deg) rotateX(8deg) rotateZ(-1deg);
 }
 .hero-figure-box-06 {
@@ -1263,7 +1261,7 @@ label {
   top: 6.3%;
   width: 30.3%;
   height: 40.4%;
-  -webkit-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
   transform: rotateZ(20deg);
 }
 .hero-figure-box-07 {
@@ -1271,7 +1269,7 @@ label {
   top: 42.4%;
   width: 12.12%;
   height: 16.16%;
-  -webkit-transform: rotateZ(20deg);
+  transform: rotateZ(20deg);
   transform: rotateZ(20deg);
 }
 .hero-figure-box-08 {
@@ -1280,7 +1278,7 @@ label {
   width: 19.51%;
   height: 26.01%;
   background: #0270d7;
-  -webkit-transform: rotateZ(-22deg);
+  transform: rotateZ(-22deg);
   transform: rotateZ(-22deg);
 }
 .hero-figure-box-08::before {
@@ -1289,7 +1287,7 @@ label {
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 255, 255, 0.48) 100%
   );
-  -webkit-transform: rotateZ(45deg) scale(1.5);
+  transform: rotateZ(45deg) scale(1.5);
   transform: rotateZ(45deg) scale(1.5);
 }
 .hero-figure-box-09 {
@@ -1298,7 +1296,7 @@ label {
   width: 6.63%;
   height: 8.83%;
   background: #00bffb;
-  -webkit-transform: rotateZ(-52deg);
+  transform: rotateZ(-52deg);
   transform: rotateZ(-52deg);
 }
 .hero-figure-box-09::before {
@@ -1307,7 +1305,7 @@ label {
     rgba(255, 255, 255, 0) 0%,
     rgba(255, 255, 255, 0.64) 100%
   );
-  -webkit-transform: rotateZ(45deg) scale(1.5);
+  transform: rotateZ(45deg) scale(1.5);
   transform: rotateZ(45deg) scale(1.5);
 }
 .hero-figure-box-10 {
@@ -1316,7 +1314,7 @@ label {
   width: 3.03%;
   height: 4.04%;
   background: rgba(0, 191, 251, 0.32);
-  -webkit-transform: rotateZ(-50deg);
+  transform: rotateZ(-50deg);
   transform: rotateZ(-50deg);
 }
 @media (max-width: 640px) {
@@ -1438,7 +1436,7 @@ label {
   background-position: center;
   background-size: 100%;
   bottom: 18.8%;
-  -webkit-transform: translateX(-50%);
+  transform: translateX(-50%);
   transform: translateX(-50%);
   background-image: url("./images/pricing-illustration.svg");
 }
