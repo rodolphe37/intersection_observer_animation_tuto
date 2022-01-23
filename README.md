@@ -1,6 +1,6 @@
 # Intersection Observer animation tutorial
 
-## How to animate your React site on scroll with a little of javascript and some keyframes!
+## How to animate your React site on scroll with on simple custom hook and some css keyframes!
 
 ### on Desktop Demo :
 ![Desktop](demo/demo-desktop.gif)
