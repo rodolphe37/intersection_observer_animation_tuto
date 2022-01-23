@@ -10,13 +10,13 @@
 ### on Mobile Demo :
 ![Desktop](demo/demo-mobile.gif)
 
----
+
 
 [The medium article](https://medium.com/@rodolphe.a_97435/how-to-implement-simple-onscroll-animations-in-your-react-applications-with-intersectionobserver-96ffb3e95482)
 
----
 
-[Live demo:](https://intersectionobserver-demo.netlify.app/)
+
+[Live demo](https://intersectionobserver-demo.netlify.app/)
 
 ---
 
