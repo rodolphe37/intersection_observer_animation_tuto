@@ -6,7 +6,7 @@
 ![Desktop](demo/demo-desktop.gif)
 
 ### on Mobile Démo :
-![Desktop](demo/demo-desktop.gif)
+![Desktop](demo/demo-mobile.gif)
 
 ---
 
