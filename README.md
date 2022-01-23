@@ -1,3 +1,15 @@
+# Intersection Observer animation tutorial
+
+## How to animate your site on scroll with a little of javascript and some keyframes
+
+### on Desktop Démo :
+![Desktop](demo/demo-desktop.gif)
+
+### on Mobile Démo :
+![Desktop](demo/demo-desktop.gif)
+
+---
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
