@@ -6,7 +6,6 @@ const useIsInViewport = () => {
       entry.target.classList.toggle("is-inViewport", entry.isIntersecting);
     });
     // EXAMPLE WITH ANIMATION ONLY AT FIRST LOAD
-    // Animation only one time (at first load)
     // entries.forEach((entry) => {
     // This condition is added - if entry is in viewport for the first time only
     //   if (entry.isIntersecting) {
