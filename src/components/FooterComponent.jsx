@@ -60,7 +60,7 @@ const FooterComponent = () => {
             </li>
           </ul>
           <div className="footer-copyright">
-            &copy; 2019 Solid, all rights reserved
+            &copy; 2022 Solid, all rights reserved
           </div>
         </div>
       </div>
