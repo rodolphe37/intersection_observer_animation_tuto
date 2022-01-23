@@ -2,11 +2,21 @@
 
 ## How to animate your React site on scroll with on simple custom hook and some css keyframes!
 
+---
+
 ### on Desktop Demo :
 ![Desktop](demo/demo-desktop.gif)
 
 ### on Mobile Demo :
 ![Desktop](demo/demo-mobile.gif)
+
+---
+
+[The medium article](https://medium.com/@rodolphe.a_97435/how-to-implement-simple-onscroll-animations-in-your-react-applications-with-intersectionobserver-96ffb3e95482)
+
+---
+
+[Live demo:](https://intersectionobserver-demo.netlify.app/)
 
 ---
 
